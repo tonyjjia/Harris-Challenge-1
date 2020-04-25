@@ -9,7 +9,6 @@
 
 # NOTE ** if you aren't able to run this, type "pip install json" into your command line
 import json
-
 # do not delete; this is the data you'll be working with
 divvy_stations = json.loads(open('divvy_stations.txt').read())
 
@@ -17,6 +16,12 @@ divvy_stations = json.loads(open('divvy_stations.txt').read())
 # find average number of empty docks (num_docks_available) and 
 # available bikes (num_bikes_available) at all stations in the system
 
+
+# num_docks_available=divvy_stations[]
+for x in divvy_stations:
+    for y in x:
+        print(sum(num_docks_available))
+num_bikes_available
 
 # PROBLEM 2
 # find ratio of bikes that are currently rented to total bikes in the system (ignore ebikes)
